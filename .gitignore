@@ -1,32 +1,7 @@
-# IDE
 .idea/
-.vscode/
-*.suo
-*.user
+*.md
+!README.md
 
-# CMake build directories
-build/
-cmake-build-*/
-CMakeCache.txt
-CMakeFiles/
-cmake_install.cmake
-install_manifest.txt
-compile_commands.json
-
-# Compiled output
+# Build outputs
+kilo
 *.o
-*.obj
-*.a
-*.lib
-*.so
-*.dll
-*.dylib
-*.exe
-*.out
-*.app
-
-# Debug/release artifacts
-*.pdb
-*.ilk
-*.exp
-*.map
